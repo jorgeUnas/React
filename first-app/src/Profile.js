@@ -2,7 +2,7 @@ import React from 'react';
 import NavBar from './NavBar';
 
 function Picture() {
-  return <img className="monkey" src="https://content.codecademy.com/courses/React/react_photo-monkeyselfie.jpg" width="500px" heigth="500px"/>;
+  return <img className="monkey" src="https://content.codecademy.com/courses/React/react_photo-monkeyselfie.jpg" width="200px" heigth="200px"/>;
 }
 
 function Profile() {
