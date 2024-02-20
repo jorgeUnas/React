@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+#selfie{
+  display: flex;
+  justify-content: center;
+}
+.monkey{
+  border-radius: 50px;
+}
+.navigation{
+  width: 100%;
+  text-align: center;
+}
+a{
+  margin: 20px;
+  text-decoration: none; 
+}
+h1, p{
+  color: blue;
+  text-align: center;
+}
