@@ -3,6 +3,7 @@ import './App.css';
 import Profile from './Profile'; 
 import Product from './Product';
 import List from './List';
+import GroceryItem from './GroceryItem';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
             <Profile />
             <Product name="Apple Watch" price = {399} rating = "4.5/5.0" />
             <Product name="Iphone" price = {1234} rating = "4.8/5.0" /> 
+            <GroceryItem />
             
             <List type='Living Musician'>
                 <li>Sachiko M</li>
