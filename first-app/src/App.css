@@ -61,3 +61,12 @@ h2, h3, li{
   color: red;
   text-align: center;
 }
+button{
+  color: blue;
+  margin: 20px;
+  border-radius: 10px;
+}
+#items{
+  display: flex;
+  justify-content: center;
+}
