@@ -5,6 +5,8 @@ import React from 'react';
 import {comments} from './commentData';
 import Card from './Card';
 
+import ColorPicker from './ColorPicker'; 
+
 function App(){
   return (
     <>
@@ -13,6 +15,9 @@ function App(){
         <Card commentObject={comment} />
       )
     }
+    
+    <ColorPicker />
+    
     </>
   )
 }
