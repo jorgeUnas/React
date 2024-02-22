@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 
 export default function ColorPicker() {
   // call useState and assign its return values to `color` and `setColor`
-  const [color, setColor] = useState(); 
+  const [color, setColor] = useState('Tomato'); 
  const divStyle = {backgroundColor: color};
 
   return (
