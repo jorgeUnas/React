@@ -6,6 +6,7 @@ import {comments} from './commentData';
 import Card from './Card';
 
 import ColorPicker from './ColorPicker'; 
+import PhoneNumber from './PhoneNumber';
 
 function App(){
   return (
@@ -17,6 +18,7 @@ function App(){
     }
     
     <ColorPicker />
+    <PhoneNumber />
     
     </>
   )
