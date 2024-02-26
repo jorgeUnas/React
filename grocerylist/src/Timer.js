@@ -9,7 +9,7 @@ useEffect(() => {
     setTime((prev) => prev + 1)
   }, 1000);
   return () => {clearInterval(intervalId)}
-})
+}, [])
 
 const handleChange = ({target}) => {
   setName(target.value);
