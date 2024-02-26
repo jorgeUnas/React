@@ -5,6 +5,7 @@ import React from "react";
 import GroceryCart from "./GroceryCart";
 import EditProfile from './EditProfile';
 import Counter from './Counter';
+import Timer from './Timer';
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <GroceryCart />
       <EditProfile />
       <Counter />
+      <Timer />
       </>
       );
 }
