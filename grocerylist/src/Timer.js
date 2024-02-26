@@ -4,6 +4,12 @@ export default function Timer() {
   const [time, setTime] = useState(0);
   const [name, setName] = useState('');
 
+useEffect(() => {
+ const intervalId = setInterval(() => {
+    setTime((prev) => prev + 1)
+  }, 1000);
+  return () => {clearInterval(intervalId)}
+})
 
 const handleChange = ({target}) => {
   setName(target.value);
