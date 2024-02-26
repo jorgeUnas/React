@@ -6,6 +6,7 @@ import GroceryCart from "./GroceryCart";
 import EditProfile from './EditProfile';
 import Counter from './Counter';
 import Timer from './Timer';
+import Forecast from './Forecast';
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       <EditProfile />
       <Counter />
       <Timer />
+      <Forecast />
       </>
       );
 }
