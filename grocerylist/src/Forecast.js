@@ -8,11 +8,11 @@ export default function Forecast() {
 
   useEffect(() => {
     //alert('Requested data from server...');
-    get('/daily').then((response) => {
+    get(forecastType).then((response) => {
       //alert('Response: ' + JSON.stringify(response,'',2));
       setData(response.data);
     });
-  }, []);
+  }, [forecastType]);
 
   const handleChange = (index) => ({ target }) =>
     setNotes((prev) => ({
