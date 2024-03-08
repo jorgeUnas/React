@@ -10,11 +10,12 @@ it("converts array of country data objects to array of countries", ()=>{
       {name: "Belize", capital: "Belmopan"},
       {name: "Bolivia", capital: "Sucre"}
       ]
-    const expectedValue = ["Argentina","Belize","Bolivia"]
+    const expectedValue = ["Argentina","Belize","Bolivi"]
     
     //act
     const actualValue = countryExtractor(inputObject)
     
     //assert
+    expect(actualValue).toEqual(expectedValue);
     
 })
